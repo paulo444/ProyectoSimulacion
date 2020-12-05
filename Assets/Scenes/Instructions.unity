@@ -271,7 +271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Movimiento del Personaje
+  m_Text: Movimiento de la camara
 --- !u!222 &183807271
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2638,7 +2638,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Movimineto de la Camara
+  m_Text: Movimineto del Personaje
 --- !u!222 &2115539568
 CanvasRenderer:
   m_ObjectHideFlags: 0
