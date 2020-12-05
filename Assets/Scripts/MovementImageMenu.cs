@@ -11,7 +11,9 @@ public class MovementImageMenu : MonoBehaviour
 
     void Update()
     {
+        if (frames.Length > 0) { 
         int index = (int)(Time.time * fps) % frames.Length;
         GetComponent<RawImage>().texture = frames[index];
+        }
     }
 }
