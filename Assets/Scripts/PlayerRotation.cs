@@ -6,7 +6,6 @@ public class PlayerRotation : MonoBehaviour
 {
     public float horizontalSpeed = 1f;
     public float verticalSpeed = 1f;
-    public GameObject sword;
     public float distance = 1f;
 
     private float xRotation = 0.0f;

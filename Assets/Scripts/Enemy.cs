@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     private NavMeshAgent nav;
+    public int health;
 
     void Start()
     {
@@ -15,11 +16,10 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         GameObject objectPlayer = GameObject.Find("Player");
-
-
-
         nav.destination = objectPlayer.transform.position;
-        
+    }
 
+    public void takeDamage(int d){
+        health -= d;
     }
 }

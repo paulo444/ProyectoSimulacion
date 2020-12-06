@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = 9.8f;
     private float velocity = 0;
     private Camera cam;
+
+    public Animator swordAnimator;
+    public GameObject attack;
  
     private void Start()
     {
@@ -31,5 +34,21 @@ public class PlayerMovement : MonoBehaviour
             velocity -= gravity * Time.deltaTime;
             characterController.Move(new Vector3(0, velocity, 0));
         }
+
+        if(Input.GetKeyDown(KeyCode.O)){
+            Attack();
+        }
+    }
+
+    public void Attack(){
+        swordAnimator.SetTrigger("Attack");
+        attack.SetActive(true);
+
+        StartCoroutine(AttackTime());
+    }
+
+    IEnumerator AttackTime(){
+        yield return new WaitForSeconds(.15f);
+        attack.SetActive(false);
     }
 }
