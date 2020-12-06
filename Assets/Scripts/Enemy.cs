@@ -14,6 +14,12 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        nav.destination = GameObject.FindGameObjectWithTag("Player").transform.position;
+        GameObject objectPlayer = GameObject.Find("Player");
+
+
+
+        nav.destination = objectPlayer.transform.position;
+        
+
     }
 }

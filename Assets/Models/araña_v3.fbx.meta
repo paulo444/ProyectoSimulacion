@@ -1,8 +1,17 @@
 fileFormatVersion: 2
-guid: 01d9289fc00a6b54bad5a48df2b94a20
+guid: de3b1232b2500474784b2a97e6307bbc
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
+  - first:
+      74: -3599503948805721221
+    second: CuerpoTrasero|Action
+  - first:
+      74: 5866731289751199271
+    second: CuerpoTrasero|Caminar
+  - first:
+      74: 5839337599105192717
+    second: Esqueleto|Action
   - first:
       74: 1265346154416961434
     second: Esqueleto|Caminar
