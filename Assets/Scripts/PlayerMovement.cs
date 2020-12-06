@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             characterController.Move(new Vector3(0, velocity, 0));
         }
 
-        if(Input.GetKeyDown(KeyCode.O)){
+        if(Input.GetMouseButtonDown(0)){
             Attack();
         }
     }
