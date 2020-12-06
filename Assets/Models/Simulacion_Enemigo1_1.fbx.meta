@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ce42a2c2696a0b46bcb2dc2eb87c068
+guid: f4f075f0296f84c4792c8b6ed74814fe
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
@@ -387,6 +387,9 @@ ModelImporter:
   - first:
       74: 3759220580523535590
     second: Sphere.003|EmptyAction
+  - first:
+      74: -4100379081906787309
+    second: Sphere.003|Movement
   - first:
       74: -2121079767627535082
     second: Sphere.003|Sphere.002Action
