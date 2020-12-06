@@ -976,8 +976,8 @@ GameObject:
   - component: {fileID: 6687462242845681789}
   - component: {fileID: 6687462242845681786}
   m_Layer: 0
-  m_Name: "ara\xF1a_v3"
-  m_TagString: Untagged
+  m_Name: "ara\xF1a"
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,6 +1074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc627a9a9bb07e54db40c9c8fd53df6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &6802727630700415228
 GameObject:
   m_ObjectHideFlags: 0

@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     IEnumerator AttackTime(){
-        yield return new WaitForSeconds(.15f);
+        yield return new WaitForSeconds(.30f);
         attack.SetActive(false);
     }
 }

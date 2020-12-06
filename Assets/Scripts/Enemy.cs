@@ -7,15 +7,16 @@ public class Enemy : MonoBehaviour
 {
     private NavMeshAgent nav;
     public int health;
+    private GameObject objectPlayer;
 
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        objectPlayer = GameObject.Find("Player");
     }
 
     void Update()
     {
-        GameObject objectPlayer = GameObject.Find("Player");
         nav.destination = objectPlayer.transform.position;
     }
 
