@@ -17,7 +17,7 @@ public class Damage : MonoBehaviour
         damage = damage*2;
     }
 
-    public void normalDamage(){
+    public void setDefaultDamage(){
         damage = normalDamage;
     }
 }
