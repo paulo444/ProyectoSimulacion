@@ -30,4 +30,10 @@ public class Enemy : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    void OnCollisionEnter(Collision col){
+        if(col.gameObject.tag == "Player"){
+            col.gameObject.GetComponent<Player>().takeDamage();
+        }
+    }
 }
