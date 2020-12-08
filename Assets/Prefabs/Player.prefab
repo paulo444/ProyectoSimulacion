@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5522079439836173203, guid: 6f44eb271396230468881118b77aa483, type: 3}
+  - {fileID: 2100000, guid: 409b51b81c30f8f419b3c089df9fb22c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -554,6 +554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleport: {fileID: 0}
+  damage: {fileID: 5026524527927603771}
+  goldenSword: {fileID: 1518243115468438030}
 --- !u!1 &8926571436750783583
 GameObject:
   m_ObjectHideFlags: 0

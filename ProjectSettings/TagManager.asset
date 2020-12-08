@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Teleport
   - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
