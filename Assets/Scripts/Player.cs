@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
         setHearts();
 
         if(health <= 0){
-            gameOver.GetComponent<SceneController>().LoadLevel("Finish");
+            gameOver.GetComponent<SceneController>().LoadLevel("GameOver");
         }
     }
 

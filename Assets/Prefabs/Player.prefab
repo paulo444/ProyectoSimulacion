@@ -568,7 +568,6 @@ GameObject:
   - component: {fileID: 8926571436750783581}
   - component: {fileID: 8926571436750783580}
   - component: {fileID: 8926571436750783555}
-  - component: {fileID: 2901068043022271720}
   - component: {fileID: 2901068043022271715}
   m_Layer: 0
   m_Name: Player
@@ -642,22 +641,6 @@ MonoBehaviour:
   gravity: 9.8
   swordAnimator: {fileID: 5026524527321360101}
   attack: {fileID: 5026524527927603768}
---- !u!54 &2901068043022271720
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8926571436750783583}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 84
-  m_CollisionDetection: 0
 --- !u!114 &2901068043022271715
 MonoBehaviour:
   m_ObjectHideFlags: 0
