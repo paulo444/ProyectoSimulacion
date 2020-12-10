@@ -21,8 +21,6 @@ public class DialogueManager : MonoBehaviour
         }else{
             instance = this;
         }
-
-        DontDestroyOnLoad(gameObject);
     }
 
     private void Start(){

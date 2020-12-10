@@ -11151,6 +11151,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4727619541801486400, guid: dc30662060bba7a40966bba9d0da5070,
+        type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Las esquinas te salvaran
+      objectReference: {fileID: 0}
     - target: {fileID: 4727619541801486405, guid: dc30662060bba7a40966bba9d0da5070,
         type: 3}
       propertyPath: m_Name
@@ -20508,7 +20513,7 @@ GameObject:
   - component: {fileID: 1581591674}
   - component: {fileID: 1581591673}
   m_Layer: 0
-  m_Name: DialogManager
+  m_Name: DialogueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24298,7 +24303,7 @@ PrefabInstance:
     - target: {fileID: 4960681526575910609, guid: 16aa005db6079d64cbf2d3f4cf7e0723,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8.230011
+      value: 8.19
       objectReference: {fileID: 0}
     - target: {fileID: 4960681526575910609, guid: 16aa005db6079d64cbf2d3f4cf7e0723,
         type: 3}
